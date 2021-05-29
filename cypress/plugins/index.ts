@@ -1,8 +1,8 @@
 import * as webpackConfig from './webpack.config';
 const { startDevServer } = require('@cypress/webpack-dev-server');
 
-module.exports = (on, config) => {
-  on('dev-server:start', (options) =>
+module.exports = (on: any, config: any) => {
+  on('dev-server:start', (options: any) =>
     startDevServer({
       options,
       webpackConfig,
