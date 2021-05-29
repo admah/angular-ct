@@ -1,12 +1,12 @@
-import * as webpack from 'webpack';
-import * as path from 'path';
+import * as webpack from 'webpack'
+import * as path from 'path'
 
 module.exports = {
   mode: 'development',
   devtool: 'inline-source-map',
   resolve: {
     extensions: ['.ts', '.js'],
-    modules: [path.join(__dirname, '../../src'), 'node_modules']
+    modules: [path.join(__dirname, '../../src'), 'node_modules'],
   },
   module: {
     rules: [
@@ -113,4 +113,4 @@ module.exports = {
     setImmediate: false,
     fs: 'empty',
   },
-};
+}

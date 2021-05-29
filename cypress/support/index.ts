@@ -16,6 +16,9 @@
 // When a command from ./commands is ready to use, import with `import './commands'` syntax
 // import './commands';
 
+// cypress/support/index.js
+// core-js 3.*
+require('core-js/es/reflect');
 
 /**
  * @hack we have to import `zone.js/dist/zone-testing`.
