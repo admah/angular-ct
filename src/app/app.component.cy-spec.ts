@@ -1,4 +1,4 @@
-import { initEnv, mount } from '../../../cypress/npm/angular';
+import { initEnv, mount } from '@cypress/angular';
 import { AppComponent } from './app.component';
 
 describe('AppComponent', () => {
